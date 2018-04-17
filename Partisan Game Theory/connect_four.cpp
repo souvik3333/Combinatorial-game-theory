@@ -43,6 +43,198 @@ int evaluate(char board[6][7])
             }
         }
     }
+    if(board[0][0]==board[1][1]&&board[0][0]==board[2][2]&&board[0][0]==board[3][3]){
+        if(board[0][0]==player){
+            return +100000;
+        }
+        else if(board[0][0]==opponent){
+            return -100000;
+        }
+    }
+    if(board[0][1]==board[1][2]&&board[0][1]==board[2][3]&&board[0][1]==board[3][4]){
+        if(board[0][1]==player){
+            return +100000;
+        }
+        else if(board[0][1]==opponent){
+            return -100000;
+        }
+    }
+    if(board[0][2]==board[1][3]&&board[0][2]==board[2][4]&&board[0][2]==board[3][5]){
+        if(board[0][2]==player){
+            return +100000;
+        }
+        else if(board[0][2]==opponent){
+            return -100000;
+        }
+    }
+    if(board[0][3]==board[1][4]&&board[0][3]==board[2][5]&&board[0][3]==board[3][6]){
+        if(board[0][3]==player){
+            return +100000;
+        }
+        else if(board[0][3]==opponent){
+            return -100000;
+        }
+    }
+    if(board[1][0]==board[2][1]&&board[1][0]==board[3][2]&&board[1][0]==board[4][3]){
+        if(board[1][0]==player){
+            return +100000;
+        }
+        else if(board[1][0]==opponent){
+            return -100000;
+        }
+    }
+    if(board[1][1]==board[2][2]&&board[1][1]==board[3][3]&&board[1][1]==board[4][4]){
+        if(board[1][1]==player){
+            return +100000;
+        }
+        else if(board[1][1]==opponent){
+            return -100000;
+        }
+    }
+    if(board[1][2]==board[2][3]&&board[1][2]==board[3][4]&&board[1][2]==board[4][5]){
+        if(board[1][2]==player){
+            return +100000;
+        }
+        else if(board[1][2]==opponent){
+            return -100000;
+        }
+    }
+    if(board[1][3]==board[2][4]&&board[1][3]==board[3][5]&&board[1][3]==board[4][6]){
+        if(board[1][3]==player){
+            return +100000;
+        }
+        else if(board[1][3]==opponent){
+            return -100000;
+        }
+    }
+    if(board[2][0]==board[3][1]&&board[2][0]==board[4][2]&&board[2][0]==board[5][3]){
+        if(board[2][0]==player){
+            return +100000;
+        }
+        else if(board[2][0]==opponent){
+            return -100000;
+        }
+    }
+    if(board[2][1]==board[3][2]&&board[2][1]==board[4][3]&&board[2][1]==board[5][4]){
+        if(board[2][1]==player){
+            return +100000;
+        }
+        else if(board[2][1]==opponent){
+            return -100000;
+        }
+    }
+    if(board[2][2]==board[3][3]&&board[2][2]==board[4][4]&&board[2][2]==board[5][5]){
+        if(board[2][2]==player){
+            return +100000;
+        }
+        else if(board[2][2]==opponent){
+            return -100000;
+        }
+    }
+    if(board[2][3]==board[3][4]&&board[2][3]==board[4][5]&&board[2][3]==board[5][6]){
+        if(board[2][3]==player){
+            return +100000;
+        }
+        else if(board[2][3]==opponent){
+            return -100000;
+        }
+    }
+    if(board[0][3]==board[1][2]&&board[0][3]==board[2][1]&&board[0][3]==board[3][0]){
+        if(board[0][3]==player){
+            return +100000;
+        }
+        else if(board[0][3]==opponent){
+            return -100000;
+        }
+    }
+    if(board[0][4]==board[1][3]&&board[0][4]==board[2][2]&&board[0][4]==board[3][1]){
+        if(board[0][4]==player){
+            return +100000;
+        }
+        else if(board[0][4]==opponent){
+            return -100000;
+        }
+    }
+    if(board[0][5]==board[1][4]&&board[0][5]==board[2][3]&&board[0][5]==board[3][2]){
+        if(board[0][5]==player){
+            return +100000;
+        }
+        else if(board[0][5]==opponent){
+            return -100000;
+        }
+    }
+    if(board[0][6]==board[1][5]&&board[0][6]==board[2][4]&&board[0][6]==board[3][3]){
+        if(board[0][6]==player){
+            return +100000;
+        }
+        else if(board[0][6]==opponent){
+            return -100000;
+        }
+    }
+    if(board[1][3]==board[2][2]&&board[1][3]==board[3][1]&&board[1][3]==board[4][0]){
+        if(board[1][3]==player){
+            return +100000;
+        }
+        else if(board[1][3]==opponent){
+            return -100000;
+        }
+    }
+    if(board[1][4]==board[2][3]&&board[1][4]==board[3][2]&&board[1][4]==board[4][1]){
+        if(board[1][4]==player){
+            return +100000;
+        }
+        else if(board[1][4]==opponent){
+            return -100000;
+        }
+    }
+    if(board[1][5]==board[2][4]&&board[1][5]==board[3][3]&&board[1][5]==board[4][2]){
+        if(board[1][5]==player){
+            return +100000;
+        }
+        else if(board[1][5]==opponent){
+            return -100000;
+        }
+    }
+    if(board[1][6]==board[2][5]&&board[1][6]==board[3][4]&&board[1][6]==board[4][3]){
+        if(board[1][6]==player){
+            return +100000;
+        }
+        else if(board[1][6]==opponent){
+            return -100000;
+        }
+    }
+    if(board[2][3]==board[3][2]&&board[2][3]==board[4][1]&&board[2][3]==board[5][0]){
+        if(board[2][3]==player){
+            return +100000;
+        }
+        else if(board[2][3]==opponent){
+            return -100000;
+        }
+    }
+    if(board[2][4]==board[3][3]&&board[2][4]==board[4][2]&&board[2][4]==board[5][1]){
+        if(board[2][4]==player){
+            return +100000;
+        }
+        else if(board[2][4]==opponent){
+            return -100000;
+        }
+    }
+    if(board[2][5]==board[3][4]&&board[2][5]==board[4][3]&&board[2][5]==board[5][2]){
+        if(board[2][5]==player){
+            return +100000;
+        }
+        else if(board[2][5]==opponent){
+            return -100000;
+        }
+    }
+    if(board[2][6]==board[3][5]&&board[2][6]==board[4][4]&&board[2][6]==board[5][3]){
+        if(board[2][6]==player){
+            return +100000;
+        }
+        else if(board[2][6]==opponent){
+            return -100000;
+        }
+    }
     return 0;
 }
 int minimax(char board[6][7], int depth, bool isMax)
@@ -62,16 +254,18 @@ int minimax(char board[6][7], int depth, bool isMax)
     // it is a tie
     if (isMovesLeft(board)==false)
         return 0;
-
+    if(depth==8){
+        return score;
+    }
     // If this maximizer's move
     if (isMax)
     {
         int best = -1000000;
 
         // Traverse all cells
-        for (int i = 0; i<6; i++)
+        for (int j = 0; j<7; j++)
         {
-            for (int j = 0; j<7; j++)
+            for (int i = 0; i<6; i++)
             {
                 // Check if cell is empty
                 if (board[i][j]=='_')
@@ -86,6 +280,7 @@ int minimax(char board[6][7], int depth, bool isMax)
 
                     // Undo the move
                     board[i][j] = '_';
+                    break;
                 }
             }
         }
@@ -98,9 +293,9 @@ int minimax(char board[6][7], int depth, bool isMax)
         int best = 1000000;
 
         // Traverse all cells
-        for (int i = 0; i<6; i++)
+        for (int j = 0; j<7; j++)
         {
-            for (int j = 0; j<7; j++)
+            for (int i = 0; i<6; i++)
             {
                 // Check if cell is empty
                 if (board[i][j]=='_')
@@ -115,7 +310,9 @@ int minimax(char board[6][7], int depth, bool isMax)
 
                     // Undo the move
                     board[i][j] = '_';
+                    break;
                 }
+
             }
         }
         return best;
@@ -132,9 +329,9 @@ Move findBestMove(char board[6][7])
     // Traverse all cells, evalutae minimax function for
     // all empty cells. And return the cell with optimal
     // value.
-    for (int i = 0; i<6; i++)
+    for (int j = 0; j<7; j++)
     {
-        for (int j = 0; j<7; j++)
+        for (int i = 0; i<6; i++)
         {
             // Check if celll is empty
             if (board[i][j]=='_')
@@ -144,7 +341,7 @@ Move findBestMove(char board[6][7])
 
                 // compute evaluation function for this
                 // move.
-                int moveVal = minimax(board, 0, false);
+                int moveVal = minimax(board, 1, false);
 
                 // Undo the move
                 board[i][j] = '_';
@@ -158,6 +355,7 @@ Move findBestMove(char board[6][7])
                     bestMove.col = j;
                     bestVal = moveVal;
                 }
+                break;
             }
         }
     }
@@ -171,12 +369,12 @@ int main()
 {
     char board[6][7] =
             {
-                    { '_', 'o', 'x', 'o', 'x', 'o', 'o' },
-                    { '_', 'x', 'o','_', '_', '_','_' },
-                    { '_', 'x', 'o','_', '_', 'o','x'  },
-                    { '_', 'o', 'x','x', 'o', 'o','o' },
-                    { '_', 'x', 'o','x', 'o', 'x','x'  },
-                    { '_', 'o', 'o','x', 'o', 'o', 'o' }
+                    { '_', '_', '_', '_', '_', '_', '_' },
+                    { '_', '_', '_', '_', '_', '_', '_' },
+                    { '_', '_', '_', '_', '_', '_', '_' },
+                    { '_', '_', '_', '_', '_', '_', '_' },
+                    { '_', '_', '_', '_', '_', '_', '_' },
+                    { '_', '_', '_', '_', '_', '_', '_' }
             };
     Move bestMove = findBestMove(board);
     printf("ROW: %d COL: %d\n", bestMove.row,
